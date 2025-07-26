@@ -97,3 +97,44 @@ footer {
   from { opacity: 0; transform: translateY(-10px); }
   to { opacity: 1; transform: translateY(0); }
 }
+/* Navbar styles */
+.navbar {
+  background-color: #0074D9; /* True blue background */
+  padding: 1rem 2rem;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.nav-menu {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-menu li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  font-family: Arial, sans-serif;
+  transition: color 0.3s ease;
+}
+
+.nav-menu li a:hover {
+  color: #FFDD57; /* a warm accent hover */
+}
+button, .btn {
+  background-color: #0074D9;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+button:hover, .btn:hover {
+  background-color: #005fa3;
+}
+
